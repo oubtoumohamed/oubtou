@@ -1,1 +1,40 @@
-hello world 
+<!Doctype Html>
+<html dir="rtl">
+	<head>
+		<title>OUBTOU MOHAMED</title>
+		<link sync rel="stylesheet" href="style.css" />
+		<meta charset="utf-8" />
+	</head> 
+	<body>
+		<div class="parent">
+			<img src="logo.png" class="logo" alt="OUBTOU MOHAMED" title="OUBTOU MOHAMED" />
+            
+ <?php 
+$link = mysql_connect('wingseffortcom.ipagemysql.com', 'wp_wingseffort', '*password*'); 
+if (!$link) { 
+    die('Could not connect: ' . mysql_error()); 
+} 
+echo 'Connected successfully'; 
+mysql_select_db(wp_wingseffort); 
+?>
+			<h1>OUBTOU MOHAMED</h1>
+			<p>
+				محمد أبتو 22 سنة , مبرمج تطبيقات الحاسوب و مطور مواقع بخبرة أزيد من 3 سنوات 
+				, عملت على عدة مشاريع مختلفة لقاعدة مهمة من زبائني حول العالم و الذين أعتبرهم عائلتي التانية 
+				منهم شركات ناشئة و مدونين و صحفين و غيرهم من الشخصيات , أطمح إلى أن أكون شخصا مفيدا في المجتمع يسهر على إسعاد الآخرين
+			</p>
+			<span>
+				يسعدني تواصلكم معي على الروابط التالية : 
+			</span>
+		</div>
+		<div class="social" >
+			<a href="https://khamsat.com/user/oubtou-mohamad" title="khamsat" ><img src="kham.png" title="khamsat" alt="khamsat" class="kh" /></a>
+			<a href="https://www.facebook.com/oubtoumohamed" title="facebook" ><img src="fb.png" title="facebook" alt="facebook" class="fb" /></a>
+			<a href="http://twitter.com/oubtou" title="twitter" ><img src="tw.png" title="twitter" alt="twitter" class="tw" /></a>
+			<a href="mailto:oubtou@hotmail.com" title="Email" ><img src="mail.png" title="Email" alt="Email" class="em" /></a>
+		</div>
+		<div class="right">
+			 محمد أبتو - &copy; - 2016
+		</div>
+	</body>
+</html>
