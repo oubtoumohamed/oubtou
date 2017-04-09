@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'bein-arabic_normalnormal';
-    src: url('fonts/bein/bein_arabic_normal-webfont.eot');
-    src: url('fonts/bein/bein_arabic_normal-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/bein/bein_arabic_normal-webfont.woff') format('woff'),
-         url('fonts/bein/bein_arabic_normal-webfont.ttf') format('truetype'),
-         url('fonts/bein/bein_arabic_normal-webfont.svg#bein-arabic_normalnormal') format('svg');
+    src: url('fonts/bein_arabic_normal-webfont.eot');
+    src: url('fonts/bein_arabic_normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bein_arabic_normal-webfont.woff') format('woff'),
+         url('fonts/bein_arabic_normal-webfont.ttf') format('truetype'),
+         url('fonts/bein_arabic_normal-webfont.svg#bein-arabic_normalnormal') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -33,7 +33,6 @@ body .parent p{
 	width: 60%;
 	margin: 0 auto;
 	font-size: 1.2em;
-	font-style: italic;
 }
 body .parent span{
 	width: 60%;
